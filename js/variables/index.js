@@ -1,14 +1,37 @@
 console.log("hello world");
-// Type casting---> conversion data type form one data to another
 
-//1.Sting to number(year)
-//2.Number to string(year)
-//write a program that store the user information about their birth year and calculate age.
-
-const year = Number(prompt("what is your birth year?"));//type casting
+const year = Number(prompt("what is your birth year?"));
 console.log(year);
 const age = 2024 - year;
 console.log(age);
 
+//Statement
 
+//Age
+
+//below 18 teen
+//above 18 adult
+// exact or above 60 old
+
+if(age > 18){
+    alert("you are adult");
+}else{
+    alert("you are teen");
+}
+
+//switch
+switch (age > 18) {
+  case true:
+    alert("you are adult");
+    break;
+  case false:
+    alert("you are teen");
+    break;
+  default:
+    alert("invalid data");
+}
+
+//Ternary operators
+//variabe = condition? true : false
+const result = age > 18 ?  alert("you are adult") :  alert("you are teen");
 
