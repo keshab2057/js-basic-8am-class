@@ -1,41 +1,14 @@
 console.log("hello world");
+// Type casting---> conversion data type form one data to another
 
-//hello world(singhle line comment)
-// multiline comment
-/*
-Readme comment
-#variables-->name storage
-=>standard ECMASCRIPT
-es5-->var
-es6-->var,let,const
+//1.Sting to number(year)
+//2.Number to string(year)
+//write a program that store the user information about their birth year and calculate age.
 
-
-a
-b 
-c
- */
-// hello keshab
-// console.log("keshab")
-var person = "keshab";
-var fullName = "kshab sutar";
-var isAdult = "yes";
-let persons = "keshab";
-const personName = "aakash";
-
-//var,let--> data replace
-//const-->constant variable
-
-//Hoisting-->variable lai junsukai tahuma declare garepani run gard kheri first ma aaux so called as Hoisting.
-const phone = "234567";
-
-console.log("person");
-
-//interactions=>promot,confirm,alert
-//alert-->alert notifications
-alert("Good morning keshab");
-//prompt-->questions mark?
-const age = prompt("how old are you?");
+const year = Number(prompt("what is your birth year?"));//type casting
+console.log(year);
+const age = 2024 - year;
 console.log(age);
-//confirm-->yes/no questions
-const isvalid = confirm("Are you above 18 years old?");
-console.log(isvalid);
+
+
+
