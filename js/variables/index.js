@@ -1,42 +1,22 @@
 console.log("hello world");
 
+//loops
+//for loops-->syntax=>for(intialization;conditions;incrment,decrement){//code execute}
+//wap to print 1 to 100
 
+// for(let i = 1; i<=100; i++){
+//     console.log(i)
+// }
+//while loops-->syntax=>while(conditions){code execute}
+// let i = 1;
+// while(i<=100){
+//     console.log(i);
+//     i++;
+// }
 
-// write a program that prints the if its weekday or weekend based on day input using switch case
-// monday-friday--> print weekday
-// sunday-saturday-->print weekend
-
-const day = prompt("Enter number from 1 to 7 representing a week")
-switch(Number(day)){
-    case 1:
-    console.log("weekend");
-    break;
-    case 2:
-        console.log("weekday");
-        break;
-        case 3:
-            console.log("weeekday");
-            break;
-            case 4:
-                console.log("weekday");
-                break;
-                case 5:
-                    console.log("weekday");
-                    break;
-                    case 6:
-                        console.log("weekday");
-                        break;
-                        case 7:
-                            console.log("weekend");
-                            break;
-                            default:
-                                console.log("invalid data");
-                                
-
-}
-
-
-
-
-
-
+//do while loop-->syntax=>do{code execute}while(condition)
+let i = 1;
+do {
+  console.log(i);
+  i++;
+} while (i <= 100);
