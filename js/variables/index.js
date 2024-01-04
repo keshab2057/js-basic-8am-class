@@ -1,37 +1,42 @@
 console.log("hello world");
 
-const year = Number(prompt("what is your birth year?"));
-console.log(year);
-const age = 2024 - year;
-console.log(age);
 
-//Statement
 
-//Age
+// write a program that prints the if its weekday or weekend based on day input using switch case
+// monday-friday--> print weekday
+// sunday-saturday-->print weekend
 
-//below 18 teen
-//above 18 adult
-// exact or above 60 old
+const day = prompt("Enter number from 1 to 7 representing a week")
+switch(Number(day)){
+    case 1:
+    console.log("weekend");
+    break;
+    case 2:
+        console.log("weekday");
+        break;
+        case 3:
+            console.log("weeekday");
+            break;
+            case 4:
+                console.log("weekday");
+                break;
+                case 5:
+                    console.log("weekday");
+                    break;
+                    case 6:
+                        console.log("weekday");
+                        break;
+                        case 7:
+                            console.log("weekend");
+                            break;
+                            default:
+                                console.log("invalid data");
+                                
 
-if(age > 18){
-    alert("you are adult");
-}else{
-    alert("you are teen");
 }
 
-//switch
-switch (age > 18) {
-  case true:
-    alert("you are adult");
-    break;
-  case false:
-    alert("you are teen");
-    break;
-  default:
-    alert("invalid data");
-}
 
-//Ternary operators
-//variabe = condition? true : false
-const result = age > 18 ?  alert("you are adult") :  alert("you are teen");
+
+
+
 
