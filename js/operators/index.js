@@ -86,3 +86,11 @@ console.log("Hello operators schapter");
 //logical not
 // let a = 7;
 // console.log("a =",  a != 6);
+
+//logical OR
+// let a = 4;
+// let b = 7;
+// let cond1 = a == b;
+// let cond2 =  b > a;
+// console.log("cond1 || cond2=", cond1 || cond2);
+
