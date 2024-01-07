@@ -77,3 +77,5 @@ CI = P(1 + r/100)pow t
 // console.log(answer);
 
  
+
+//

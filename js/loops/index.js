@@ -13,17 +13,33 @@ console.log("Hello loops chapter");
 //write a program to print the even numbers 1 to 100;
 
 
-for(i = 0; i <= 100; i+2){
-    sum = i;
-console.log(sum);
-}
-
 
 //calculate sum of 1 to 10
+// let sum = 0;
+// for(i = 1; i <= 10;i++){
+//     sum = sum + i;
+// }console.log(sum);
 
 //write a program to print the even numbers
 
-//write a
+// for( let num = 0; num <= 100; num++){
+//     if(num%2 == 0){
+//         console.log("odd numbers from 1 to 100 is=",num);
+//     }
+// } 
+
+//oR
+
+// for(let i = 0; i <= 100; i += 2){
+//     console.log("even numbers from 1 t 100 is =",i);
+
+// }
+    //write a program to print only odd numbers
+
+//     for(i = 1; i <= 10; i = i +2){
+// console.log(i);
+//     }
+
 
 
 
