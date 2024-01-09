@@ -40,6 +40,15 @@ console.log("Hello loops chapter");
 // console.log(i);
 //     }
 
+//write a game where you start with any random game number. ask the user to keep gussing the number untill the users enters correct value.
+
+let gameNumber = 25;
+let userNum = prompt("Guess the game number:");
+while(userNum != gameNumber){
+ userNum = prompt("you entered wrong number. guess again");
+}
+console.log("congratulations, you entered write number");
+
 
 
 
