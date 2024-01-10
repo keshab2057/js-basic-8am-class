@@ -1,10 +1,10 @@
 console.log("Hello operators schapter");
 
-alert("Good morning keshab");
-const age = Number(prompt("How old are you?"));
-console.log(age);
-const isValid = confirm("Are you above 18?");
-console.log(isValid);
+// alert("Good morning keshab");
+// const age = Number(prompt("How old are you?"));
+// console.log(age);
+// const isValid = confirm("Are you above 18?");
+// console.log(isValid);
 
 
 //write a program that store the information about their birth year and calculate age.
