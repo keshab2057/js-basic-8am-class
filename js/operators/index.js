@@ -19,3 +19,39 @@ console.log("Hello operators schapter");
 // }else{
 //     alert("you are adult");
 // }
+
+
+//write a js function to convert the string into the properCase
+//eg('the fox is sly=> The Fox IS Sly')
+
+
+// function properCase(str) {
+//     str = str.toLowerCase().split(' ');
+//     for (let i = 0; i < str.length; i++) {
+//         str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
+//     }
+//     return str.join(' ');
+// }
+// console.log(properCase("the fox is sly"));
+
+
+
+
+// const properCase = (string)=>{
+//     return string.split("").map(string);
+    
+// }
+
+//Reduce
+// arr = [1,4,6,8,9]
+// const res = arr.reduce((h1,h2)=>{
+//     return h1 + h2;
+// })
+
+// console.log(res);
+
+const arr = [0,-1,-3,5,8,-2]
+const res = arr.filter((value)=>{
+    return value < 0;
+})
+console.log(res);

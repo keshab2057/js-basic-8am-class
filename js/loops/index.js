@@ -50,5 +50,33 @@ console.log("Hello loops chapter");
 // console.log("congratulations, you entered write number");
 
 
+//ternary operator
+//syntax-->condition?expressionTrue:expressionFalse
+// var number = 1;
+// var result = (number > 0) ? "Positive" : (number < 0) ? "Negative" : "Zero";
 
+// console.log(result);
 
+//another methord-->ternary operator vhaneko if else statement ko short curt form
+// const num = 0;
+// if(num>0){
+//     console.log("positive");
+// }
+// else{
+//     console.log("negative");
+// }
+// let isAdmin=true;
+// var userStatus = isAdmin ? "Admin User" : "Regular User";
+
+// console.log(userStatus);
+
+//find the maximum number
+// let num1 = 20;
+// let num2 = 30;
+// const max = (num1>num2)? "num1" : "num2";
+// console.log(max);
+
+//checke the string is empty or not
+let text = "";
+const check = (text !=="")? "non-empty string":"empty string";
+console.log(check);
