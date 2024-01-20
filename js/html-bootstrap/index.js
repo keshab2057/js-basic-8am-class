@@ -1,17 +1,11 @@
-const checkLogin = ()=>{
-  const email = document.getElementById("mail").value;
-const password = document.getElementById("pwd").value;
-if(email==="keshab@gmail.com" && password==="keshab@123"){
-  alert("Login successful")
-}else{
-  alert("Invalid user name or password.please try again");
+
+const isValidNumber = (a) => {
+  const number = document.getElementById("nbr").value;
+if(a>10 ||a<10){
+  alert("the number is false");
+} else{
+  alert("the number is write");
 }
-}
+};
 
-
-
-
-
-
- 
 
