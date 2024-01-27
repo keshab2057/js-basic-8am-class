@@ -1,47 +1,46 @@
-<!-- write a js function that checks if the mobile number is valid or not //eg:+0414411--false
-//9848859581-- true -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <div class="container mt-5">
-      <div class="col-md-6">
-        <div class="row">
-          <div class="card">
-            <h4>Number validation:</h4>
-            <form>
-              <label>Enter a Number:</label>
-              <input
-                type="text"
-                class="form-control"
-                id="nbr"
-                placeholder="Enter your number"
-              />
-              <div class="row text-center"></div>
-              <button
-                type="button"
-                class="btn btn-primary"
-                onsubmit="isValidNumber()"
-              >
-                Submit
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script src="index.js"></script>
-  </body>
-</html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <title>Greeting Library</title>
+</head>
+<body>
 
+<script>
+const greetings = {
+  morning: "Good morning",
+  afternoon: "Good afternoon",
+  evening: "Good evening"
+};
+
+function getGreeting() {
+  const currentTime = new Date();
+  const currentHour = currentTime.getHours();
+
+  if (currentHour >= 5 && currentHour < 12) {
+    return greetings.morning;
+  } else if (currentHour >= 12 && currentHour < 17) {
+    return greetings.afternoon;
+  } else {
+    return greetings.evening;
+  }
+}
+
+function displayGreeting() {
+  const greetingMessage = getGreeting();
+
+  const greetingContainer = document.createElement('div');
+  greetingContainer.className = 'alert alert-primary mt-3';
+  greetingContainer.textContent = greetingMessage;
+
+  document.body.appendChild(greetingContainer);
+}
+
+// Call the function to display greeting when the page loads
+window.onload = displayGreeting;
+</script>
+
+</body>
+</html>

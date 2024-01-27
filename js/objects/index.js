@@ -77,12 +77,12 @@ console.log("Hello objects");
 //** write a function to find the maximum and maximum value of an array
 // let arr = [10,20,40,25,50,100];
 //min = 10 and max = 100;
-// const maxMinFun = (arr) => {
-//     const stored = arr.sort((a,b) => a - b);
-//     return {min:stored[0],max:stored.pop()};
-// }
-// const result = maxMinFun([10,20,40,25,50,100]);
-// console.log(result);
+const maxMinFun = (arr) => {
+    const stored = arr.sort((a,b) => a - b);
+    return {min:stored[0],max:stored.pop()};
+}
+const result = maxMinFun([10,20,40,25,50,100]);
+console.log(result);
   
 
 //write a program to execute password from the array
